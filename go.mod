@@ -46,7 +46,7 @@ require (
 	github.com/tidwall/gjson v1.9.3
 	github.com/vrischmann/envconfig v1.3.0
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
-	google.golang.org/api v0.61.0
+	google.golang.org/api v0.64.0
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	k8s.io/api v0.22.2
