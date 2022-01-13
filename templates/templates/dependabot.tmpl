@@ -13,5 +13,6 @@ updates:
       {{- if .JobConfig.commitIncludeScope | quote }}
       include: "scope"
       {{- end }}
+    target-branch: "update-deps"
 {{- end }}
 {{ end }}

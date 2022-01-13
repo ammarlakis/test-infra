@@ -11,6 +11,7 @@ updates:
     commit-message:
       prefix: "gomod"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/prow/images/prow-tools"
     schedule:
@@ -18,6 +19,7 @@ updates:
     commit-message:
       prefix: "prow-tools"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/changelog-generator"
     schedule:
@@ -25,6 +27,7 @@ updates:
     commit-message:
       prefix: "changelog-gen"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/development/kyma-ci-force-bot/ciforcebot"
     schedule:
@@ -32,6 +35,7 @@ updates:
     commit-message:
       prefix: "ciforcebot"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/development/kyma-github-connector/githubWebhookGateway"
     schedule:
@@ -39,6 +43,7 @@ updates:
     commit-message:
       prefix: "ghWebhookGate"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/development/kyma-pubsub-connector/pubSubGateway"
     schedule:
@@ -46,6 +51,7 @@ updates:
     commit-message:
       prefix: "pubSubGateway"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/development/test-log-collector"
     schedule:
@@ -53,6 +59,7 @@ updates:
     commit-message:
       prefix: "test-log-coll"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/prow/images/bootstrap"
     schedule:
@@ -60,6 +67,7 @@ updates:
     commit-message:
       prefix: "bootstrap"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/prow/images/buildpack-golang"
     schedule:
@@ -67,6 +75,7 @@ updates:
     commit-message:
       prefix: "bp-golang"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/prow/images/buildpack-node"
     schedule:
@@ -74,6 +83,7 @@ updates:
     commit-message:
       prefix: "bp-node"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/prow/images/cleaner"
     schedule:
@@ -81,6 +91,7 @@ updates:
     commit-message:
       prefix: "cleaner"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/prow/images/clonerefs"
     schedule:
@@ -88,6 +99,7 @@ updates:
     commit-message:
       prefix: "clonerefs"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/prow/images/debug-commando"
     schedule:
@@ -95,6 +107,7 @@ updates:
     commit-message:
       prefix: "debug-commando"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/prow/images/kyma-integration"
     schedule:
@@ -102,6 +115,7 @@ updates:
     commit-message:
       prefix: "kyma-integrate"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/prow/images/probot-stale"
     schedule:
@@ -109,6 +123,7 @@ updates:
     commit-message:
       prefix: "probot-stale"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/prow/images/whitesource-scanner"
     schedule:
@@ -116,6 +131,7 @@ updates:
     commit-message:
       prefix: "whitesource"
       include: "scope"
+    target-branch: "update-deps"
   - package-ecosystem: "docker"
     directory: "/stability-checker/deploy/stability-checker"
     schedule:
@@ -123,4 +139,5 @@ updates:
     commit-message:
       prefix: "stability-check"
       include: "scope"
+    target-branch: "update-deps"
 
